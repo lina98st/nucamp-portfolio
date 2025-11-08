@@ -1,0 +1,19 @@
+{
+  "name": "nucamp-portfolio",
+  "version": "1.0.0",
+  "description": "Alina's personal portfolio project",
+  "source": "index.html",
+  "scripts": {
+    "start": "lite-server",
+    "build": "parcel build"
+  },
+  "author": "Alina",
+  "license": "ISC",
+  "devDependencies": {
+    "lite-server": "^2.6.1",
+    "parcel": "^2.16.1"
+  },
+  "dependencies": {
+    "bootstrap": "^5.2.3"
+  }
+}
