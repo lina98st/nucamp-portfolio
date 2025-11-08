@@ -1,0 +1,123 @@
+/* Palette */
+:root{
+  --purple-dark: #5b2a86;
+  --purple-mid: #9c7dff;
+  --purple-soft: #efe7ff;
+  --bg: #f6f2ff;
+  --text: #221a29;
+}
+
+/* Base */
+body{
+  font-family: Arial, sans-serif;
+  background-color: var(--bg);
+  color: var(--text);
+  margin: 0;
+  padding: 0;
+}
+
+/* Header */
+header{
+  background-color: var(--purple-dark);
+  color: #fff;
+  text-align: center;
+  padding: 24px;
+  opacity: 0.97;
+  box-shadow: 0 3px 6px rgba(0,0,0,0.2);
+}
+nav a{
+  color: #fff;
+  text-decoration: none;
+  margin: 0 12px;
+  font-weight: bold;
+  opacity: 0.9;
+}
+nav a:hover{
+  text-decoration: underline;
+  opacity: 1;
+}
+
+/* Sections */
+section{
+  background-color: var(--purple-soft);
+  margin-bottom: 24px;
+  padding: 20px;
+  border: 1px solid var(--purple-mid);
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.08);
+}
+h2{
+  color: var(--purple-dark);
+  border-bottom: 2px solid var(--purple-mid);
+  padding-bottom: 6px;
+}
+
+/* Project cards */
+.project{
+  background-color: #fff;
+  border: 1px solid var(--purple-mid);
+  padding: 15px;
+  margin-bottom: 20px;
+  border-radius: 8px;
+  transition: transform 0.2s, box-shadow 0.2s;
+  box-shadow: 0 3px 8px rgba(0,0,0,0.08);
+}
+.project:hover{
+  transform: translateY(-2px);
+  box-shadow: 0 6px 16px rgba(0,0,0,0.12);
+}
+.project img{
+  display: block;
+  margin-top: 10px;
+  border: 2px solid var(--purple-mid);
+  border-radius: 6px;
+}
+
+/* Form */
+form{
+  background-color: #fff;
+  padding: 16px;
+  border: 1px solid var(--purple-mid);
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.08);
+}
+label{
+  font-weight: bold;
+  color: var(--purple-dark);
+}
+input, textarea{
+  width: 100%;
+  padding: 10px;
+  margin-top: 6px;
+  border: 1px solid var(--purple-mid);
+  border-radius: 6px;
+  outline: none;
+}
+input:focus, textarea:focus{
+  box-shadow: 0 0 0 0.2rem rgba(156,125,255,0.25);
+}
+
+/* Buttons */
+input[type="submit"],
+.btn-outline-primary{
+  background-color: var(--purple-dark);
+  color: #fff;
+  border: 1px solid var(--purple-dark);
+  border-radius: 6px;
+}
+input[type="submit"]:hover,
+.btn-outline-primary:hover{
+  background-color: #49206a;
+  border-color: #49206a;
+  color: #fff;
+}
+
+/* Footer */
+footer{
+  background-color: var(--purple-dark);
+  color: #fff;
+  text-align: center;
+  padding: 20px;
+  opacity: 0.97;
+  box-shadow: 0 -3px 6px rgba(0,0,0,0.2);
+}
